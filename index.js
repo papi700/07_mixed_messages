@@ -8,3 +8,11 @@ const jokes = ["Why did the two Java methods get a divorce? Because they had con
 "How do you comfort a JavaScript bug? You console it!",
 "Why don't programmers like nature? It has too many bugs!",
 "Why did the programmer go broke? Because he used up all his cache!"]
+
+const logRandom = array => {
+    const randomIndex = Math.floor(Math.random() * (array.length - 0 + 1) + 0)
+
+    console.log(array[randomIndex])
+}
+
+logRandom(jokes)
